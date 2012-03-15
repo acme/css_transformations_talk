@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Transformations</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <style>
+        .orange { color: #FF9900; }
+        pre { font-size: 28px; }
+        pre span { line-height: 32px; }
+        .hero-unit { margin-bottom: 400px }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>CSS Transformations</h1>
+      </div>
+<div class="hero-unit">
+<br/>
+      <pre class="prettyprint">
+&lt;html&gt;&hellip;&lt;/html&gt;</pre>
+</div>
+
+<div class="hero-unit">
+<h1>Hi</h1>
+<br/>
+      <pre class="prettyprint">
+&lt;h1&gt;Hi&lt;/h1&gt;</pre>
+</div>
+
+<div class="hero-unit">
+<h1 style="color: #FF9900">Hi</h1>
+<br/>
+      <pre class="prettyprint">
+&lt;style&gt;.orange { color: #FF9900; }&lt;/style&gt;
+&lt;h1 class="orange"&gt;Hi&lt;/h1&gt;</pre>
+</div>
+
+<div class="hero-unit">
+<h1 style="color: #FF9900;">Hi</h1>
+<br/>
+      <pre class="prettyprint">
+&lt;h1 style="color: #FF9900;"&gt;Hi&lt;/h1&gt;</pre>
+</div>
+
+<div class="hero-unit">
+<h1 style="border: 5px solid #ff9900;">Hi</h1>
+<br/>
+      <pre class="prettyprint">
+&lt;h1 style="border: 5px solid #ff9900;"&gt;Hi&lt;/h1&gt;</pre>
+</div>
+
+<div class="hero-unit">
+<h1 style="border: 5px solid #ff9900; width: 200px;">Hi</h1>
+<br/>
+      <pre class="prettyprint">
+&lt;h1 style="border: 5px solid #ff9900;
+           width: 200px;"&gt;Hi&lt;/h1&gt;</pre>
+</div>
+
+<div class="hero-unit" style="position:relative">
+<h1 style="border: 5px solid #ff9900; width: 200px; left: 260px; position: absolute;">Hi</h1>
+<br/>
+      <pre class="prettyprint" style="margin-top: 70px">
+&lt;h1 style="border: 5px solid #ff9900;
+           width: 200px;
+           left: 200px;"&gt;Hi&lt;/h1&gt;</pre>
+</div>
+
+<div class="hero-unit" style="position:relative">
+<h1 style="border: 5px solid #ff9900; width: 200px; left: 260px; position: absolute;">Hi1</h1>
+<h1 style="border: 5px solid #ff9900; width: 200px; left: 60px; position: absolute;">Hi2</h1>
+<br/>
+      <pre class="prettyprint" style="margin-top: 70px">
+&lt;h1 style="border: 5px solid #ff9900;
+           width: 200px;
+           left: 200px;"&gt;Hi1&lt;/h1&gt;
+&lt;h1 style="border: 5px solid #ff9900;
+           width: 200px;"&gt;Hi2&lt;/h1&gt;</pre>
+</div>
+
+<div class="hero-unit">
+<h1 style="border: 5px solid #ff9900; width: 200px; -webkit-transform: none;">Hi</h1>
+<br/>
+      <pre class="prettyprint">
+&lt;h1 style="border: 5px solid #ff9900;
+           width: 200px;
+           transform: none;
+           -moz-transform: none;
+           -o-transform: none;
+           -webkit-transform: none;
+           -ms-transform: none;"&gt;Hi&lt;/h1&gt;</pre>
+</div>
+
+<div class="hero-unit">
+<h1 style="border: 5px solid #ff9900; width: 200px; -webkit-transform: translate(200px, 0px);">Hi</h1>
+<br/>
+      <pre class="prettyprint">
+&lt;h1 style="border: 5px solid #ff9900;
+           width: 200px;
+           transform: translate(200px, 0px);"&gt;Hi&lt;/h1&gt;</pre>
+</div>
+
+<div class="hero-unit">
+<h1 style="border: 5px solid #ff9900; width: 200px; -webkit-transform: scale(2, 1);">Hi</h1>
+<br/>
+      <pre class="prettyprint">
+&lt;h1 style="border: 5px solid #ff9900;
+           width: 200px;
+           transform: scale(2, 1);"&gt;Hi&lt;/h1&gt;</pre>
+</div>
+
+<div class="hero-unit">
+<h1 style="border: 5px solid #ff9900; width: 200px; -webkit-transform: scale(2, 1) translate(50px, 0px);">Hi</h1>
+<br/>
+      <pre class="prettyprint">
+&lt;h1 style="border: 5px solid #ff9900;
+           width: 200px;
+           transform: scale(2, 1)
+                      translate(50px, 0px);
+          "&gt;Hi&lt;/h1&gt;</pre>
+</div>
+
+<div class="hero-unit">
+<h1 style="border: 5px solid #ff9900; width: 200px; -webkit-transform: scale(1, 2);">Hi</h1>
+<br/>
+      <pre class="prettyprint">
+&lt;h1 style="border: 5px solid #ff9900;
+           width: 200px;
+           transform: scale(1, 2);
+          "&gt;Hi&lt;/h1&gt;</pre>
+</div>
+
+<div class="hero-unit">
+<h1 style="border: 5px solid #ff9900; width: 200px; -webkit-transform: scale(2, 2) translate(50px, 0px);">Hi</h1>
+<br/>
+      <pre class="prettyprint">
+&lt;h1 style="border: 5px solid #ff9900;
+           width: 200px;
+           transform: scale(2, 2) translate(50px, 0px);
+          "&gt;Hi&lt;/h1&gt;</pre>
+</div>
+
+<div class="hero-unit">
+<h1 style="border: 5px solid #ff9900; width: 200px; -webkit-transform: skew(-30deg, 0deg);">Hi</h1>
+<br/>
+      <pre class="prettyprint">
+&lt;h1 style="border: 5px solid #ff9900;
+           width: 200px;
+           transform: skew(-30deg, 0deg);
+          "&gt;Hi&lt;/h1&gt;</pre>
+</div>
+
+<div class="hero-unit">
+<h1 style="border: 5px solid #ff9900; width: 200px; -webkit-transform: skew(0deg, -20deg);">Hi</h1>
+<br/>
+      <pre class="prettyprint">
+&lt;h1 style="border: 5px solid #ff9900;
+           width: 200px;
+           transform: skew(0deg, -20deg);
+          "&gt;Hi&lt;/h1&gt;</pre>
+</div>
+
+<div class="hero-unit">
+<h1 style="border: 5px solid #ff9900; width: 200px; -webkit-transform: rotate(45deg);">Hi</h1>
+<br/>
+      <pre class="prettyprint">
+&lt;h1 style="border: 5px solid #ff9900;
+           width: 200px;
+           transform: rotate(45deg);
+          "&gt;Hi&lt;/h1&gt;</pre>
+</div>
+
+<div class="hero-unit">
+<h2>Affine transformation matrix</h2>
+<img src="MatrixMultiply.png" alt="matrix multiply"/>
+<h2>Matrix translate</h2>
+<img src="MatrixTranslate.png" alt="matrix translate"/>
+<h2>Matrix scaling</h2>
+<img src="MatrixScale.png" alt="matrix scale"/>
+<h2>Matrix rotation</h2>
+<img src="MatrixRotate.png" alt="matrix rotate"/>
+<h2>Can combine multiple transformations into one</h2>
+</div>
+
+<div class="hero-unit">
+<h1 style="border: 5px solid #ff9900; width: 200px; -webkit-transform: matrix(1, 0, 0, 1, 0, 0);">Hi</h1>
+<br/>
+      <pre class="prettyprint">
+&lt;h1 style="border: 5px solid #ff9900;
+           width: 200px;
+           transform: matrix(1, 0, 0, 1, 0, 0);
+          "&gt;Hi&lt;/h1&gt;</pre>
+</div>
+
+<div class="hero-unit">
+<h1 style="border: 5px solid #ff9900; width: 200px; -webkit-transform: matrix(2, 0.2, -0.6, 1.5, 100, -100);">Hi</h1>
+<br/>
+      <pre class="prettyprint">
+&lt;h1 style="border: 5px solid #ff9900;
+           width: 200px;
+           transform: matrix(2, 0.2, -0.6, 1.5, 100, -100));
+          "&gt;Hi&lt;/h1&gt;</pre>
+</div>
+    </div>
+    <script src="assets/js/jquery-1.7.1.min.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script>
+$(document).ready(function(){
+    prettyPrint();
+});
+    </script>
+  </body>
+</html>
